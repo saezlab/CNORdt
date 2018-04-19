@@ -44,7 +44,8 @@ SEXP simulatorDT (
 	int k = 0;
 	int curr_max = 0;
 	int or_max = 0;
-	int selection[40];
+	int selectionSize = 256; //#Gabora increased selection Size (june 2017)
+	int selection[selectionSize];
 	int selCounter = 0;
 	double *rans;
 	
